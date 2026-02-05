@@ -7,7 +7,7 @@ def load_data(file_path):
     try:
         return pd.read_csv(file_path)
     except FileNotFoundError:
-        raise FileNotFoundError("❌ sales_data.csv not found in data folder")
+        raise FileNotFoundError(" sales_data.csv not found in data folder")
 
 def validate_columns(df):
     """Validate CSV column names"""
@@ -23,7 +23,7 @@ def validate_columns(df):
 
     if not required_columns.issubset(df.columns):
         raise ValueError(
-            f"❌ CSV must contain columns: {required_columns}"
+            f" CSV must contain columns: {required_columns}"
         )
 
 def clean_data(df):
@@ -52,7 +52,7 @@ def create_visualizations(monthly_sales, product_sales, region_sales):
     """Generate charts"""
     os.makedirs("visualizations", exist_ok=True)
 
-    # 1️⃣ Monthly Sales Trend (Line Chart)
+    # 1️ Monthly Sales Trend (Line Chart)
     plt.figure(figsize=(10, 5))
     monthly_sales.plot(kind="line", marker="o")
     plt.title("Monthly Sales Trend")
@@ -66,7 +66,7 @@ def create_visualizations(monthly_sales, product_sales, region_sales):
 
 
 
-    # 2️⃣ Sales by Product (Bar Chart)
+    # 2️ Sales by Product (Bar Chart)
     plt.figure(figsize=(8, 5))
     product_sales.plot(kind="bar", color="steelblue")
     plt.title("Total Sales by Product")
@@ -79,7 +79,7 @@ def create_visualizations(monthly_sales, product_sales, region_sales):
     plt.close()
 
 
-    # 3️⃣ Sales by Region (Bar Chart)
+    # 3️ Sales by Region (Bar Chart)
     plt.figure(figsize=(8, 5))
     region_sales.plot(kind="bar", color="seagreen")
     plt.title("Total Sales by Region")
@@ -92,7 +92,7 @@ def create_visualizations(monthly_sales, product_sales, region_sales):
 
 
 def main():
-    print("📊 E-commerce Sales Analysis Started")
+    print(" E-commerce Sales Analysis Started")
 
     df = load_data("sales_data.csv")
     validate_columns(df)
@@ -108,3 +108,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
