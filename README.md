@@ -41,11 +41,11 @@ ecommerce-sales-analysis/
 ├── data/
 │   └── sales_data.csv              # Original dataset
 ├── visualizations/                 # Generated charts
-│   ├── monthly_sales_trend.png
-│   ├── sales_by_product.png
-│   ├── sales_by_region.png
-│   ├── avg_sales_by_region.png
-│   └── sales_distribution_by_region.png
+│   ├── monthly_sales.png
+│   ├── Out-Put_SS.png
+│   ├── Total_sales_by_product.png
+│   ├── Total_sales_by_region.png
+│   
 ├── report/
 │   └── report.md                   # Full analysis report with visuals and insights
 ├── main.py                         # Python script for full analysis
@@ -173,4 +173,5 @@ GitHub: [your-github-link](https://github.com/yourusername)
 This project is for **educational purposes**.
 
 ---
+
 
