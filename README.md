@@ -102,7 +102,7 @@ The script will:
   * Total units sold
   * Unique customers
 
-> Charts will be saved automatically and can also be displayed on screen.
+
 
 ---
 
@@ -172,6 +172,7 @@ Email: siddeshshinde020@gmail.com
 This project is for **educational purposes**.
 
 ---
+
 
 
 
