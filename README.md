@@ -48,7 +48,7 @@ ecommerce-sales-analysis/
 │   
 ├── report/
 │   └── report.md                   # Full analysis report with visuals and insights
-├── main.py                         # Python script for full analysis
+├── E-commerce Sales Analysi.py                         # Python script for full analysis
 ├── README.md                        # Project overview and instructions
 └── requirements.txt                # Python dependencies
 ```
@@ -173,5 +173,6 @@ GitHub: [your-github-link](https://github.com/yourusername)
 This project is for **educational purposes**.
 
 ---
+
 
 
