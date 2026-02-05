@@ -47,10 +47,10 @@ ecommerce-sales-analysis/
 │   ├── Total_sales_by_region.png
 │   
 ├── report/
-│   └── report.md                   # Full analysis report with visuals and insights
-├── E-commerce Sales Analysi.py                         # Python script for full analysis
-├── README.md                        # Project overview and instructions
-└── requirements.txt                # Python dependencies
+│   └── report.txt                    # Full analysis report 
+├── E-commerce Sales Analysi.py       # Python script for full analysis
+├── README.md                         # Project overview and instructions
+└── requirements.txt                  # Python dependencies
 ```
 
 ---
@@ -173,6 +173,7 @@ GitHub: [your-github-link](https://github.com/yourusername)
 This project is for **educational purposes**.
 
 ---
+
 
 
 
