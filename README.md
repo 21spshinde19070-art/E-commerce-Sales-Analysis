@@ -163,8 +163,7 @@ pip install -r requirements.txt
 ## Author
 
 Siddesh Shinde
-Email: [siddeshshinde020@gmail.com)
-GitHub: [your-github-link](https://github.com/yourusername)
+Email: siddeshshinde020@gmail.com
 
 ---
 
@@ -173,6 +172,7 @@ GitHub: [your-github-link](https://github.com/yourusername)
 This project is for **educational purposes**.
 
 ---
+
 
 
 
